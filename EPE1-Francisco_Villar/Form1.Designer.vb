@@ -33,6 +33,7 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.LblSignoPeso = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnCargar
@@ -131,11 +132,21 @@ Partial Class Form1
         Me.Label5.TabIndex = 11
         Me.Label5.Text = "Stock del Producto"
         '
+        'LblSignoPeso
+        '
+        Me.LblSignoPeso.AutoSize = True
+        Me.LblSignoPeso.Location = New System.Drawing.Point(253, 324)
+        Me.LblSignoPeso.Name = "LblSignoPeso"
+        Me.LblSignoPeso.Size = New System.Drawing.Size(14, 16)
+        Me.LblSignoPeso.TabIndex = 12
+        Me.LblSignoPeso.Text = "$"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(701, 450)
+        Me.Controls.Add(Me.LblSignoPeso)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -168,4 +179,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents LblSignoPeso As Label
 End Class

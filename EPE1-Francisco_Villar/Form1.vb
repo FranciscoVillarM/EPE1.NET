@@ -59,7 +59,7 @@ Public Class Form1
     Private Class Producto
         Public Property Id As Integer
         Public Property Nombre As String
-        Public Property Precio As Integer
+        Public Property Precio As Double
         Public Property Stock As Integer
     End Class
 
